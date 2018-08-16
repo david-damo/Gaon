@@ -1,0 +1,178 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9782625943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLauncher()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Print title, url",
+        "description": "",
+        "id": "access-seleniumframework.com-website;print-title,-url",
+        "after": [
+          {
+            "result": {
+              "duration": 758487,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenShotsAndCloseBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10471941139,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open ebay website",
+            "match": {
+              "location": "ProjectStepDefs.i_open_seleniumframework_website()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 670583460,
+              "status": "passed"
+            },
+            "output": [
+              "Scenario is Passed"
+            ],
+            "line": 6,
+            "name": "I validate title and URL",
+            "match": {
+              "location": "ProjectStepDefs.i_print_title_and_URL()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@bvt"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 65688,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.browserLauncher()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "User will login",
+        "description": "",
+        "id": "access-seleniumframework.com-website;user-will-login",
+        "after": [
+          {
+            "result": {
+              "duration": 270448,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenShotsAndCloseBrowser(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3135035703,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I check my link",
+            "match": {
+              "location": "ProjectStepDefs.checkMyLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 264778936,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click My eBay",
+            "match": {
+              "location": "ProjectStepDefs.clickMyEbayLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3687642729,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter username and password",
+            "match": {
+              "location": "ProjectStepDefs.loginAtEbay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3200293233,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will uncheck Stay signed in",
+            "match": {
+              "location": "ProjectStepDefs.loginAtEbayUncheck()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8773591848,
+              "status": "passed"
+            },
+            "output": [
+              "Scenario is Passed"
+            ],
+            "line": 13,
+            "name": "I will click on Sign in button",
+            "match": {
+              "location": "ProjectStepDefs.loginAtEbaySubmit()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@bvt"
+          }
+        ]
+      }
+    ],
+    "name": "Access seleniumframework.com website",
+    "description": "Use selenium java with cucumber-jvm and navigate to website",
+    "id": "access-seleniumframework.com-website",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/com/1-Page-Title.feature"
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="39.987588">
+<testcase classname="Access seleniumframework.com website" name="Print title, url" time="20.925909">
+<system-out><![CDATA[When I open ebay website....................................................passed
+Then I validate title and URL...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Access seleniumframework.com website" name="User will login" time="19.061679">
+<system-out><![CDATA[When I check my link........................................................passed
+When I click My eBay........................................................passed
+Then I enter username and password..........................................passed
+Then I will uncheck Stay signed in..........................................passed
+Then I will click on Sign in button.........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
